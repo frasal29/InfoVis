@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "variable1": 10,
+    "variable2": 20,
+    "variable3": 15,
+    "variable4": 25,
+    "variable5": 30
+  },
+  {
+    "id": 2,
+    "variable1": 25,
+    "variable2": 35,
+    "variable3": 30,
+    "variable4": 40,
+    "variable5": 45
+  },
+  {
+    "id": 3,
+    "variable1": 40,
+    "variable2": 50,
+    "variable3": 45,
+    "variable4": 55,
+    "variable5": 60
+  },
+  {
+    "id": 4,
+    "variable1": 50,
+    "variable2": 60,
+    "variable3": 55,
+    "variable4": 65,
+    "variable5": 70
+  },
+  {
+    "id": 5,
+    "variable1": 15,
+    "variable2": 10,
+    "variable3": 55,
+    "variable4": 80,
+    "variable5": 20
+  },
+  {
+    "id": 6,
+    "variable1": 35,
+    "variable2": 45,
+    "variable3": 40,
+    "variable4": 50,
+    "variable5": 55
+  },
+  {
+    "id": 7,
+    "variable1": 20,
+    "variable2": 30,
+    "variable3": 25,
+    "variable4": 35,
+    "variable5": 40
+  },
+  {
+    "id": 8,
+    "variable1": 45,
+    "variable2": 55,
+    "variable3": 50,
+    "variable4": 60,
+    "variable5": 65
+  },
+  {
+    "id": 9,
+    "variable1": 55,
+    "variable2": 65,
+    "variable3": 60,
+    "variable4": 70,
+    "variable5": 75
+  },
+  {
+    "id": 10,
+    "variable1": 30,
+    "variable2": 40,
+    "variable3": 35,
+    "variable4": 45,
+    "variable5": 50
+  }
+]
