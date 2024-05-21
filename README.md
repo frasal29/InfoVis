@@ -7,7 +7,7 @@ This project demonstrates how to create a stacked bar chart using D3.js (version
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/frasal29/InfoVis.git>
     ```
 
 2. Navigate to the project directory:
