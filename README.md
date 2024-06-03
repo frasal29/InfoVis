@@ -24,7 +24,7 @@ This project demonstrates how to create a stacked bar chart using D3.js (version
 
 ## Usage
 
-1. Start the Node.js server:
+1. Start the Node.js server "server.js":
 
     ```bash
     npm start
@@ -37,10 +37,6 @@ This project demonstrates how to create a stacked bar chart using D3.js (version
 - `script.js`: JavaScript file containing the D3.js code to create the stacked bar chart.
 - `index.html`: HTML file containing the SVG element to render the chart and the script tag to include `script.js`.
 - `dati.json`: JSON file containing the data for the stacked bar chart.
-- `README.md`: Markdown file containing information about the project and instructions for installation and usage.
-- `package.json`: File containing metadata and dependencies for the Node.js project.
-- `package-lock.json`: File automatically generated for any operations where npm modifies either the node_modules tree or `package.json`.
-- `node_modules/`: Directory containing dependencies installed via npm.
 - `server.js`: Node.js server script to serve HTML, JavaScript, and JSON files.
 
 ## Dependencies
