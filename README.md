@@ -1,7 +1,6 @@
 # Demo
 
-A demo of the stacked bar chart visualization can be found [here](https://frasal29.github.io/InfoVis/).
-
+A demo of the stacked bar chart visualization can be found <a href="https://frasal29.github.io/InfoVis/" target="_blank">here</a>.
 
 # Stacked Bar Chart with D3.js
 
