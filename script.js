@@ -24,10 +24,11 @@ d3.json('dati.json').then(function(data) {
         .nice() // Round up the domain
         .range([height, 0]); // Set range to chart height (inverted)
 
-    // Define color scale for the bars
+    // Define ordinal color scale with specific shades of blue
+    var colors = ["#c6dbef", "#9ecae1", "#6baed6", "#3182bd", "#08519c"]; // Customize colors
     var color = d3.scaleOrdinal()
-        .domain(keys) // Set domain to keys
-        .range(d3.schemeSet3); // Use d3.schemeSet3 color palette
+        .domain(keys)
+        .range(colors);
 
     // Create the SVG
     var chart = svg
