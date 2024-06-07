@@ -1,3 +1,8 @@
+## Demo
+
+A demo of the stacked bar chart visualization can be found [here](https://frasal29.github.io/InfoVis/).
+
+
 # Stacked Bar Chart with D3.js
 
 This project demonstrates how to create a stacked bar chart using D3.js (version 7). The chart is created dynamically from data loaded from a JSON file. Additionally, the project includes a Node.js server script to serve the HTML, JavaScript, and JSON files.
@@ -31,6 +36,7 @@ This project demonstrates how to create a stacked bar chart using D3.js (version
     ```
 
 2. Open a web browser and go to [http://localhost:3000](http://localhost:3000) to view the stacked bar chart.
+
 
 ## File Structure
 
