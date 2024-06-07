@@ -1,4 +1,4 @@
-## Demo
+# Demo
 
 A demo of the stacked bar chart visualization can be found [here](https://frasal29.github.io/InfoVis/).
 
