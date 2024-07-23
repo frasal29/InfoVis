@@ -107,29 +107,31 @@ d3.json('dati.json').then(function(data) {
                 .text(d); // Set text
         });
 
-    // Handle click to swap sections of bars
+    // Handle click to swap clicked rectangle with the first rectangle (just above the x-axis)
     function handleClick(event, d) {
         // Check if click is with the left mouse button
         if (event.button !== 0) return;
 
         var clickedKey = d3.select(this.parentNode).datum().key; // Get key of clicked bar section
         var clickedIndex = keys.indexOf(clickedKey); // Get index of clicked key
-        var secondKey = keys[(clickedIndex + 1) % keys.length]; // Get next key in the array
-        // Check if clicked variable is the last in the keys array
-        if (clickedIndex === keys.length - 1) return;
 
-        // Swap values between clicked and immediately higher sections
+        // If the clicked key is already the first key, do nothing
+        if (clickedIndex === 0) return;
+
+        var firstKey = keys[0]; // Get the first key
+
+        // Swap values between clicked and first sections
         data.forEach(function(d) {
             var temp = d[clickedKey];
-            d[clickedKey] = d[secondKey];
-            d[secondKey] = temp;
+            d[clickedKey] = d[firstKey];
+            d[firstKey] = temp;
         });
 
         // Update colors in the scale
         var colors = color.range(); // Get current color range
         var tempColor = colors[clickedIndex]; // Swap colors in the range
-        colors[clickedIndex] = colors[(clickedIndex + 1) % colors.length];
-        colors[(clickedIndex + 1) % colors.length] = tempColor;
+        colors[clickedIndex] = colors[0];
+        colors[0] = tempColor;
         color.range(colors); // Set updated color range
 
         // Update chart with smooth transitions
@@ -146,5 +148,5 @@ d3.json('dati.json').then(function(data) {
                 var key = d3.select(this.parentNode).datum().key;
                 return color(key);
             });
-        }
+    }
 });
